@@ -8,6 +8,8 @@ public class MyRange {
     }
 
     public boolean isก้ามปูปิด(String input) {
+        if (input.endsWith("]"))
+            return true;
         return false;
     }
 
