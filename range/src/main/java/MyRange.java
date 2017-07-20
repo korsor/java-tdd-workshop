@@ -16,7 +16,7 @@ public class MyRange {
         if(range.isก้ามปูเปิด(input)){
             return input.charAt(1)-48;
         }
-        return 0;
+        return input.charAt(1)-47;
     }
 
     public boolean isก้ามปูเปิด(String input) {
