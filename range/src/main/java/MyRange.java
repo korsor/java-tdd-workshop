@@ -4,6 +4,9 @@ public class MyRange {
     }
 
     public int getLastNumber(String input) {
+        MyRange range = new MyRange();
+        if(range.isก้ามปูปิด(input))
+            return input.charAt(3)-48;
         return 0;
     }
 
