@@ -7,7 +7,7 @@ public class MyRange {
         MyRange range = new MyRange();
         if(range.isก้ามปูปิด(input))
             return input.charAt(3)-48;
-        return 0;
+        return input.charAt(3)-49;
     }
 
     public boolean isก้ามปูปิด(String input) {
