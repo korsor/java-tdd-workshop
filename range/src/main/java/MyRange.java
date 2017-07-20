@@ -12,6 +12,10 @@ public class MyRange {
     }
 
     public int getFirstNumber(String input) {
+        MyRange range = new MyRange();
+        if(range.isก้ามปูเปิด(input)){
+            return input.charAt(1)-48;
+        }
         return 0;
     }
 
